@@ -1,7 +1,4 @@
 import streamlit as st
-from joblib import dump, load
-import numpy as np
-import pandas as pd
 
 
 def main():
