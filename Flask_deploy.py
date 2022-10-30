@@ -237,8 +237,7 @@ def main():
     for i in range(len(v_boxes)):
         print(v_labels[i], v_scores[i])
         list_of_things.append(v_labels[i])
-    # draw what we found
-    draw_boxes(photo_filename, v_boxes, v_labels, v_scores)
+   
 
 
      
