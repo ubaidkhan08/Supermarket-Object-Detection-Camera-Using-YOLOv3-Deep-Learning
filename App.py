@@ -10,6 +10,7 @@ def main():
     
     """
     
+    from PIL import Image
     picture = st.camera_input("Take a picture")
 
     if picture:
